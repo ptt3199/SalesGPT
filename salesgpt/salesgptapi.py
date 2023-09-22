@@ -27,8 +27,8 @@ class SalesGPTAPI:
                 sales_agent = SalesGPT.from_llm(
                     self.llm,
                     use_tools=True,
-                    product_catalog="examples/sample_product_catalog.txt",
-                    salesperson_name="Ted Lasso",
+                    product_catalog="examples/samhan_product_catalog.txt",
+                    salesperson_name="Thành",
                     verbose=self.verbose,
                 )
             else:

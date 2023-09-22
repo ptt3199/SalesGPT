@@ -4,6 +4,7 @@
 **__pycache__
 /scratch
 **.chroma/
+/envs
 
 # Distribution / packaging
 .Python

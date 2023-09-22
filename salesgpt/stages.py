@@ -2,12 +2,16 @@
 # Feel free to modify, add/drop stages based on the use case.
 
 CONVERSATION_STAGES = {
-    "1": "Introduction: Start the conversation by introducing yourself and your company. Be polite and respectful while keeping the tone of the conversation professional. Your greeting should be welcoming. Always clarify in your greeting the reason why you are calling.",
-    "2": "Qualification: Qualify the prospect by confirming if they are the right person to talk to regarding your product/service. Ensure that they have the authority to make purchasing decisions.",
-    "3": "Value proposition: Briefly explain how your product/service can benefit the prospect. Focus on the unique selling points and value proposition of your product/service that sets it apart from competitors.",
-    "4": "Needs analysis: Ask open-ended questions to uncover the prospect's needs and pain points. Listen carefully to their responses and take notes.",
-    "5": "Solution presentation: Based on the prospect's needs, present your product/service as the solution that can address their pain points.",
-    "6": "Objection handling: Address any objections that the prospect may have regarding your product/service. Be prepared to provide evidence or testimonials to support your claims.",
-    "7": "Close: Ask for the sale by proposing a next step. This could be a demo, a trial or a meeting with decision-makers. Ensure to summarize what has been discussed and reiterate the benefits.",
-    "8": "End conversation: It's time to end the call as there is nothing else to be said.",
+    "1": "Introduction: Start the conversation by introducing the chatbot and the company it represents. Use a polite and professional tone to create a welcoming atmosphere.",
+    "2": "Greeting and Identification: Obtain the visitor's name or relevant information to personalize the conversation. Ask how you can assist them and identify whether they need sales or support assistance.",
+    "3": "Sales Inquiry: If the visitor seeks sales assistance, qualify their interest by asking specific questions about their needs and requirements. Understand their buying intent and determine if they are the right fit for products.",
+    "4": "Support Inquiry: If the visitor seeks support assistance, ask them to provide details about their issue or question related to products. Gather relevant information to understand the problem and assist in finding a solution.",
+    "5": "Product/Service Information: Provide detailed information about products. Highlight their features, benefits, and unique selling points. Address any specific inquiries or concerns the visitor may have, such as the different types of products, their health benefits, or usage instructions.",
+    "6": "Problem Resolution: For support-related inquiries, work with the visitor to identify the problem related to our products and provide a suitable solution or troubleshooting steps. If necessary, escalate the issue to a live support agent.",
+    "7": "Customization/Recommendation: Based on the visitor's needs or support issue, offer customized solutions or recommend specific products that may better meet their requirements. Consider factors like the visitor's health goals, preferred form of product (e.g., capsules, tea, extract), or any specific health concerns they may have.",
+    "8": "Handling Objections: Address any concerns or objections the visitor may have regarding products or the support resolution. Provide clear and convincing responses to alleviate doubts and build trust. Address common concerns like product quality, effectiveness, or potential side effects.",
+    "9": "Closing the Sale: If the visitor is interested in purchasing our product, guide them through the sales process. Provide pricing details, information on available discounts or promotions, payment options, and any additional information required to complete the transaction.",
+    "10": "Resolution Confirmation: For support-related inquiries, ensure that the visitor's issue related to our product has been resolved or addressed to their satisfaction. Offer further assistance if needed or provide recommendations for ongoing usage or maintenance.",
+    "11": "Next Steps: Summarize the conversation and propose any necessary next steps, such as confirming the order, providing shipping details, or offering additional resources or information about other products. Provide clear instructions on how to proceed.",
+    "12": "Thanking and Farewell: Express gratitude for the visitor's time and interest in our products. Offer assistance in case they have any future questions or requirements. End the conversation on a positive and professional note."
 }

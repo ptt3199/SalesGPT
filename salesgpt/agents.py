@@ -45,13 +45,13 @@ class SalesGPT(Chain, BaseModel):
     conversation_stage_dict: Dict = CONVERSATION_STAGES
 
     use_tools: bool = False
-    salesperson_name: str = "Ted Lasso"
+    salesperson_name: str = "Thành"
     salesperson_role: str = "Business Development Representative"
-    company_name: str = "Sleep Haven"
-    company_business: str = "Sleep Haven is a premium mattress company that provides customers with the most comfortable and supportive sleeping experience possible. We offer a range of high-quality mattresses, pillows, and bedding accessories that are designed to meet the unique needs of our customers."
-    company_values: str = "Our mission at Sleep Haven is to help people achieve a better night's sleep by providing them with the best possible sleep solutions. We believe that quality sleep is essential to overall health and well-being, and we are committed to helping our customers achieve optimal sleep by offering exceptional products and customer service."
-    conversation_purpose: str = "find out whether they are looking to achieve better sleep via buying a premier mattress."
-    conversation_type: str = "call"
+    company_name: str = "Sâm Hàn Yến Việt"
+    company_business: str = "Sâm Hàn Yến Việt is a company specializing in the supply and distribution of processed products made from Korean ginseng and Vietnamese bird's nest, providing users with nourishment and enhanced health benefits. We offer authentic products with clear origins and transparent composition."
+    company_values: str = "our mission is to promote well-being and support the health of our customers through our premium offerings. We source high-quality Korean ginseng from trusted suppliers in South Korea, renowned for their expertise in cultivating and processing ginseng. Our Vietnamese bird's nest is carefully harvested from reputable local sources, ensuring its purity and nutritional value."
+    conversation_purpose: str = "find out whether they are looking to achieve better health via buying ginseng and bird's nest products."
+    conversation_type: str = "chat"
 
     def retrieve_conversation_stage(self, key):
         return self.conversation_stage_dict.get(key, "1")

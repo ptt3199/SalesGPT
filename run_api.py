@@ -15,7 +15,7 @@ GPT_MODEL = "gpt-3.5-turbo-0613"
 
 @app.get("/")
 async def say_hello():
-    return {"message": "Hello World"}
+    return {"message": "CHÀO CẢ NHÀ NHÁ"}
 
 
 class MessageList(BaseModel):

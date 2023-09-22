@@ -42,8 +42,8 @@ if __name__ == "__main__":
             sales_agent = SalesGPT.from_llm(
                 llm,
                 use_tools=USE_TOOLS,
-                product_catalog="examples/sample_product_catalog.txt",
-                salesperson_name="Ted Lasso",
+                product_catalog="examples/samhan_product_catalog.txt",
+                salesperson_name="Thành",
                 verbose=verbose,
             )
         else:
@@ -65,7 +65,7 @@ if __name__ == "__main__":
         sales_agent.step()
 
         # end conversation
-        if "<END_OF_CALL>" in sales_agent.conversation_history[-1]:
+        if "<END_OF_CHAT>" in sales_agent.conversation_history[-1]:
             print("Sales Agent determined it is time to end the conversation.")
             break
         human_input = input("Your response: ")
